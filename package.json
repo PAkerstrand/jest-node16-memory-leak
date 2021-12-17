@@ -1,0 +1,30 @@
+{
+  "name": "jest-node16-memory-leak",
+  "version": "1.0.0",
+  "description": "Demonstration of memory heap growth in Node 16 in Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --logHeapUsage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PAkerstrand/jest-node16-memory-leak.git"
+  },
+  "keywords": [
+    "jest",
+    "node16",
+    "memory-leak"
+  ],
+  "author": "Patrik Åkerstrand <patrik.akerstrand@schibsted.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PAkerstrand/jest-node16-memory-leak/issues"
+  },
+  "homepage": "https://github.com/PAkerstrand/jest-node16-memory-leak#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
